@@ -28,6 +28,6 @@ Would result in "Quod littera Investigationes ii parum nunc. Amet suscipit hendr
 
 For use inside an entry loop:
 
-{exp:weblog:entries weblog="weblog"}
+`{exp:weblog:entries weblog="weblog"}
   {exp:linssen_excerpt entry_id="{entry_id}" word_limit="10" trailer="... read more"}
-{/exp:weblog:entries}
+{/exp:weblog:entries}`
